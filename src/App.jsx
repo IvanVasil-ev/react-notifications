@@ -1,20 +1,8 @@
-import React from 'react';
 import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import { Button } from 'react-bootstrap';
+import 'react-toastify/dist/ReactToastify.css';
 
-import './App.css';
-
-function App() {
-  //
-  //  [Documentation]: 'https://fkhadra.github.io/react-toastify/introduction/'
-  //
-
-  
-
-
-
-
+export const App = () => {
   const notifyStyle = (i) => {
     switch (i) {
       case 0:
@@ -43,10 +31,10 @@ function App() {
   }
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="header">
         <span className="title">
-          Page with notifies.
+          Click on button bellow
         </span>
         <Button
           variant="primary"
@@ -59,5 +47,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

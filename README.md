@@ -1,26 +1,24 @@
 # React Notifications application
 
-Test app with simple notifications!
+React Notifcations App using [React Toastify](https://github.com/fkhadra/react-toastify).
 
-Stack: [React](https://reactjs.org).
+## Deploy Application:
 
-### Deploy
-
-```shell script
-git clone https://github.com/ivan0vasilev/react-notifications.git
+If you want to start this application localy.\
+You need to run this commands:
+```bash
+git clone https://github.com/IvanVasil-ev/react-notifications.git
 cd ./react-notifications
-nvm use 14
 npm install
 ```
+And then you can start your application with available scripts.
 
-### Launch
+## Available Scripts:
 
-```shell script
-npm start
-```
+### `npm start`
 
-### Build
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```shell script
-npm run build
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
